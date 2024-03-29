@@ -7,7 +7,7 @@ import UserInfo from "./components/userInfo";
 const steps = [UserDetails, UserFamilyDetails, UserInfo];
 
 export default function App() {
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(0);
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
